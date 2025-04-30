@@ -1,0 +1,42 @@
+.navbar_container{
+    background-color:#310948;
+    width: 100%;
+    color: #fff;
+    overflow-y: hidden;
+}
+
+.nav_box{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+    gap: 4px;
+}
+.nav_right{
+    display: flex;
+    margin-right: 200px;
+    gap: 20px;
+}
+
+/*----Media Query Fir Nabvar */
+
+@media (max-width: 768px) {
+    .nav_box {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding: 10px;
+    }
+
+    .nav_left,.nav_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        gap: 8px;
+    }
+}

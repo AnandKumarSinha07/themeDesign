@@ -1,0 +1,82 @@
+.option_container{
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    margin-top: 65px;
+    margin-left: 150px;
+    width: 500px;
+    
+}
+
+.Box{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 9px 10px;
+  padding: 3px 12px;
+  color: #000;
+  border-radius: 5px;
+  width: 120%;
+  font-weight: 500;
+  background-color: #fff;
+  
+}
+
+.Box p{
+  width: 80%;
+}
+.Box div{
+  width: 100%;
+  padding: 8px 20px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0.7, 0.4); 
+}
+
+.Box button{
+  padding: 8px 30px;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #fa9e1c;
+  color:#fff;
+  font-weight: 300;
+  border-radius: 3px;
+  border: none;
+}
+
+  /*-----MEDIA QEURY FOR OPTION PAGE */
+
+@media (max-width: 768px) {
+  .option_container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+       margin-top: -45px;
+       margin-left: 20px;
+       width: 800px;
+    
+  }
+
+  .Box {
+      flex-direction: row;
+      align-items: center;
+      margin: 10px 0;
+      padding: 5px 8px;
+      width: 90%;
+     
+  }
+
+  .Box button {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 1.1rem;
+      border: 1px solid rgba(0, 0, 0.7, 0.4); 
+  }
+
+  .Box div {
+      width: 100%;
+      text-align: center;
+  }
+  
+}
